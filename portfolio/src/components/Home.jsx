@@ -24,7 +24,7 @@ style={{
       <p className="mx-auto  max-w-[700px] m-3 p-2 ">Frontend Developer who loves turning designs into fast, clean and responsive web experiences. Proficient in both React and vue.js.</p>
     </div>
     <div className="mt-5 p-5 flex justify-center items-center  gap-10">
-       <button  className="transform duration-300 hover:scale-110 ease-in-out cursor-pointer w-35 text-white rounded-full bg-black p-2 m-2"> 
+       <button className="transform duration-300 hover:scale-110 ease-in-out cursor-pointer w-35 text-white rounded-full bg-black p-2 m-2"> 
         Contact Me 
        </button>
        <button className="transform ease-in-out hover:scale-110 transition duration-300 cursor-pointer w-35 rounded-full bg-white border  p-2 m-2">
@@ -41,5 +41,7 @@ style={{
     );
 
 }
+<script>
+</script>
 
 export default Home
