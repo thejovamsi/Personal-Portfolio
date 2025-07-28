@@ -9,7 +9,7 @@ style={{
        backgroundImage: `url(${ogsvg})`,
        backgroundSize:'20rem 20rem'
     }} > */
-<div className="min-h-screen p-10 mt-5">
+<div className="min-h-screen p-10 mt-5 ">
     <div className="flex items-center justify-center">
 
         <img className="drop-shadow-2xl w-40 h-40 rounded-full object-cover" src={photo} alt="profile photo"/>
@@ -31,6 +31,7 @@ style={{
         <a href={resume} download className="">My Resume</a>
        </button>
     </div>
+
 
 </div>
 

@@ -20,6 +20,43 @@ const Work =() => {
 
             </div>
         </div>
+
+
+
+
+
+
+
+
+
+/* <div class="relative w-full h-screen bg-[#e6f0ff] overflow-hidden">
+
+
+  <div
+    style={{clipPath: 'polygon(60% 10%, 90% 30%, 80% 70%, 50% 90%, 20% 70%, 10% 30%)'}}
+    class="absolute top-[-5rem] left-[-10rem] w-[30rem] h-[30rem] bg-gradient-to-tr from-blue-400 to-sky-500 opacity-20 blur-3xl rotate-6 z-0"
+  ></div>
+
+  <div
+    style={{clipPath: 'polygon(70% 20%, 100% 40%, 85% 80%, 55% 95%, 25% 75%, 15% 40%)'}} 
+    class="absolute bottom-[-5rem] right-[-10rem] w-[35rem] h-[35rem] bg-gradient-to-br from-blue-300 to-indigo-400 opacity-20 blur-3xl -rotate-12 z-0"
+  ></div>
+
+
+  <div
+    style={{clipPath: 'polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 72.5% 32.5%, 60.2% 62.4%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%)'}}
+    class="absolute top-[10rem] left-1/2 -translate-x-1/2 w-[40rem] h-[40rem] bg-gradient-to-tr from-sky-300 to-purple-400 opacity-20 blur-[100px] rotate-2 z-0"
+  ></div>
+
+
+  <div className="relative z-10 flex items-center justify-center h-full">
+    <h1 className="text-4xl font-bold text-center text-gray-800">
+      Beautiful Clipped Background
+    </h1>
+  </div>
+
+</div> */
+
     )
 }
 export default Work;

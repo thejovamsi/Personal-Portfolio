@@ -1,21 +1,22 @@
 const Navbar =() =>{
     return(
-        <nav className="bg-black ">
-            <div className="flex w-full mx-auto px-8 ">
-                <div className="flex justify-bewtween items-center gap-50 h-16 ">
-                    <div className="flex gap-40"> 
-                        <h1 className="items-center-center mx-auto text-white text-2xl font-bold">My Portfolio</h1>
-                        <div className="flex ml-20 justify-center gap-10 items-center">
-                            <a className="text-white" href="#home">Home</a>
-                            <a className="text-white" href="#work">Work</a>
-                            <a className="text-white" href="#contact">Contact</a>
-                        </div>
+        <nav className="sticky top-0 z-50 bg-white rounded-full shadow-md mx-8 mt-3 border-gray-200 border-1">
+            <div className="grid grid-cols-3 gap-10 p-2">
+                <div className="flex items-center">
+                    <h1 className="text-black text-md font-bold">My Portfolio</h1>
+                </div>
+                <div className="flex justify-center items-center">
+                    <a className="text-black mx-4" href="#home">Home</a>
+                    <a className="text-black mx-4" href="#work">Work</a>
+                    <a className="text-black mx-4" href="#contact">Contact</a>
+                </div>
+                <div className="flex justify-end items-center">
+                    <div className="flex text-black rounded-2xl p-1 cursor-pointer items-center">
+                        <h1 className="text-black">Login</h1>
                     </div>
-                    <div className="justify-center items-center w-full">
-                            <button className=" mx-auto text-black p-2 h-10 bg-white transform hover:bg-green-600 cursor-pointer hover:scale-110 rounded-sm">
-                               Login
-                            </button>
-                    </div>
+                    <button className="flex items-center justify-center rounded-2xl p-1 w-20 bg-black transform hover:bg-gray-800 cursor-pointer ml-2">
+                        <h1 className="text-white">Sign Up</h1>
+                    </button>
                 </div>
             </div>
         </nav>
